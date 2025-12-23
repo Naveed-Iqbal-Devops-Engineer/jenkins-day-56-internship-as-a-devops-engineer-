@@ -1,3 +1,42 @@
+jenkins-day-56-internship-as-a-devops-engineer
+Multibranch CI/CD Pipeline for Three-Tier Application Using Jenkins, Docker Compose & Docker Hub
+
+Industry Scenario
+You are a DevOps Engineer at a fast-growing tech company that maintains a three-tier full-stack application. The application consists of:
+Frontend: React
+Backend: Node.js
+Database: MongoDB
+
+
+The organization wants automated builds and deployments for three environments:
+Development (dev) → For developer testing
+Staging (stg) → For QA and pre-production validation
+Production (prod) → For live users
+
+
+Your task is to set up a CI/CD pipeline using Jenkins Multibranch Pipeline. Each Git branch corresponds to an environment (dev, stg, prod).
+
+Objective
+✔ Configure Jenkins Multibranch Pipeline to detect branches automatically
+ ✔ Build Docker images for frontend and backend
+ ✔ Push images to three registries:
+AWS ECR (primary for deployment)
+Docker Hub (public image storage)
+GitHub Container Registry (GHCR)
+ ✔ Deploy environment-specific Docker Compose stacks on an Ubuntu EC2 instance
+ ✔ Use branch-based image tagging for better version control
+ ✔ Ensure secure handling of credentials using Jenkins Credentials Store
+
+
+
+Architecture Overview
+Components:
+Source Code Repository: GitHub
+Pipeline Engine: Jenkins (Multibranch Pipeline)
+Image Registries: AWS ECR, Docker Hub, GitHub Container Registry
+Deployment Server: Ubuntu EC2 with Docker & Docker Compose installed
+
+
 # 🧱 Three-Tier MERN Application
 
 This is a full-stack three-tier web application built with:
