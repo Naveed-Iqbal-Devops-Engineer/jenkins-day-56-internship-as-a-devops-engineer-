@@ -5,7 +5,7 @@ Industry Scenario
 You are a DevOps Engineer at a fast-growing tech company that maintains a three-tier full-stack application. The application consists of:
 Frontend: React
 Backend: Node.js
-Database: MongoDB
+Database: MongoDB.
 
 
 The organization wants automated builds and deployments for three environments:
