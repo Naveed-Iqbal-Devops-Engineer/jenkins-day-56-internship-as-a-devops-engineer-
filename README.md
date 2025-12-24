@@ -1,5 +1,5 @@
 jenkins-day-56-internship-as-a-devops-engineer
-Multibranch CI/CD Pipeline for Three-Tier Application Using Jenkins, Docker Compose & Docker Hub
+Multibranch CI/CD Pipeline for Three-Tier Application Using Jenkins, Docker Compose & Docker Hub .
 
 Industry Scenario
 You are a DevOps Engineer at a fast-growing tech company that maintains a three-tier full-stack application. The application consists of:
